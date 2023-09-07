@@ -1,0 +1,231 @@
+@import url(root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-150{
+    margin-left: 150px;
+}
+.mw-340{
+    max-width: 340px;
+}
+.ml-33{
+    margin-left: 33px;
+}
+.text{
+color: #4F5665;
+}
+.foot{
+    color: black;
+}
+.position-absolute{
+    position: absolute;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+.transform_translateY_37{
+    transform: translateY(37%);
+}
+.circle11{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.one{
+    margin-top: 129px;
+    margin-bottom: 20px;
+}
+.two{
+    margin-bottom: 50px;
+}
+.btn1{
+    border: 2px solid red;
+    padding: 8px 28px;
+    border-radius: 50px;
+    color: red;
+}
+.btn2{
+    border: 2px solid  #F53838;
+ padding: 10px 38px;  
+  border-radius: 10px;
+ background-color: #F53838;
+ color: white;
+
+}
+.circle{margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #FFECEC;
+}
+.card3{
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.line{
+    position: relative;
+}
+.pt-101{
+    padding-top: 101px;
+}
+.pl-36{
+    padding-left: 36px;
+}
+
+.my-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.use{height: 100%;
+    border-radius: 10px;
+border: 2px solid #DDD;
+background: #FFF;
+text-align: center;
+
+}
+.ml-60{
+    margin-left: 60px;
+}
+.pt-45{
+    padding-top: 45px;
+}
+.bot{
+    border: 2px solid red;
+    border-radius: 50px;
+    padding:9px 38px ;
+    color: red;
+    background-color: white;
+}
+.bg-my{
+    background-color: #FBFBFB;
+}
+.bot:hover{
+    background-color:#F53838;
+    color: white;
+}
+.mt-70{
+    margin-top: 85px;
+}
+.pt-130{
+    padding-top: 122px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mt-50{margin-top: 50px;}
+.card5{padding: 25px;
+    /* height: 230px; */
+    border-radius: 10px;
+border: 2px solid #dddddd;
+background: #FFF;
+}
+.card5:hover{
+    border-color: #F53838;
+}
+.slick-track {
+    display: flex !important;
+  }
+  .slick-slider {
+    height: inherit !important;
+    display: flex !important;
+  }
+  .slick-slider > div {
+    display: flex;
+  }
+.circle_btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:2px solid #F53838;
+}
+.circle_btn:hover{
+    border:transparent;
+    background-color: #F53838;
+}
+.circle_btn:hover svg path{
+    fill: #ffffff;
+}
+.bg-color9{
+    background-color: #F53838;
+}
+.bg-color7{
+    background-color: #F8F8F8;
+}
+  .lora{
+    background-color: #F53838;
+    padding: 12px 50px;
+    border-radius: 16px;
+    border: none;
+    color: white;
+  }
+  
+@media (min-width:992px) {
+    .line::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #eeeff2f4;
+        right: 100px;
+    }
+    .line::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #eeeff2f4;
+        right: 100px;
+    }
+    
+}
+@media(max-width:992px) {
+    label[for="menubar"] {
+      display: flex;
+      justify-content: space-between;
+      width: 30px;
+      height: 25px;
+      position: relative;
+      z-index: 1;
+      cursor: pointer;
+      flex-direction:column;
+    }
+    label[for="menubar"]>span{
+      width: 100%;
+      height: 4px;
+      background-color: aquamarine;
+      border-radius: 3px;
+    }
+    ul.mobile-view{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: red;
+      transition: all 300ms linear;
+    }
+    input[type="checkbox"][id=menubar]:checked+ul.mobile-view {
+      left: 0;
+    }}
